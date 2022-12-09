@@ -1,14 +1,22 @@
-import React from "react";
-import { Route, Routes } from "react-router-dom"
-import HomePage from "./Components/home-page"
-import LandingPage from "./Components/landing-page";
+import "@aws-amplify/ui-react/styles.css";
+import {
+  withAuthenticator,
+  Button,
+  Heading,
+  Image,
+  View,
+  Card,
+} from "@aws-amplify/ui-react";
 
-const App = () => {
-  return <Routes>
-      <Route index element={<HomePage />}/>
-      <Route exact path="/home" element={<HomePage />} />
-      <Route exact path="/landing" element={<LandingPage />} />
-    </Routes>
+function App({ signOut }) {
+  return (
+    <View className="App">
+      <Card>
+        <Heading level={1}>We now have Auth!</Heading>
+      </Card>
+      <Button onClick={signOut}>Sign Out</Button>
+    </View>
+  );
 }
 
-export default App;
+export default withAuthenticator(App);
