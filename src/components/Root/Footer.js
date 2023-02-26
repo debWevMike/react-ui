@@ -23,6 +23,15 @@ const Footer = () => {
             GitHub
           </a>
         </li>
+        <li>
+          <a
+            href='https://github.com/debWevMike'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            GitHub 2
+          </a>
+        </li>
       </ul>
     </footer>
   )

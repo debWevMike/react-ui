@@ -8,3 +8,7 @@
   padding-bottom: 1rem;
   border-bottom: 1px solid var(--color-primary-300);
 }
+
+.about ul li {
+  margin: 1rem 0;
+}

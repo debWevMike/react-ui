@@ -2,3 +2,13 @@
   display: flex;
   flex-direction: column;
 }
+
+.container a {
+  text-decoration: none;
+  color: var(--color-primary-300);
+}
+
+.container a:hover,
+.container a.active {
+  color: var(--color-primary-500);
+}

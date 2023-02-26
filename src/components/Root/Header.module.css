@@ -29,7 +29,3 @@
 .list a.active {
   color: var(--color-primary-800);
 }
-
-/* .header a:hover {
-  color: var(--color-gray-400);
-} */
