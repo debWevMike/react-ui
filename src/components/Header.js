@@ -5,6 +5,7 @@ import styles from "./css/Header.module.css"
 const Header = () => {
   return (
     <header className={styles.header}>
+      <div className={styles.logo}>MD</div>
       <nav>
         <ul className={styles.list}>
           <li>

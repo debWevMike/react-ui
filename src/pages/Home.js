@@ -1,8 +1,8 @@
 import React from "react"
-import PersonalPicture from "../images/mike.jpeg"
+import HomePageContent from "../components/HomePageContent"
 
 const HomePage = () => {
-  return <div>HomePage</div>
+  return <HomePageContent />
 }
 
 export default HomePage
