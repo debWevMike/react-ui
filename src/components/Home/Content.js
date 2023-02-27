@@ -5,7 +5,7 @@ import Introduction from "./Introduction"
 import Container from "./Container"
 import Row from "./Row"
 import image from "../../images/Mike.jpg"
-import Button from "./Button"
+import Skills from "./Skills"
 
 const Content = () => {
   return (
@@ -24,7 +24,6 @@ const Content = () => {
           </a>
         </p>
       </Introduction>
-      <Button>Contact Me</Button>
       <Row>
         <Image src={image} alt='Michael DesRoches' />
         <About title='About Me'>
@@ -46,7 +45,7 @@ const Content = () => {
           <p>
             Fast forward to today, and I still have the privilege of serving the
             military on a part time basis (but still flying on those really cool
-            missions!) and have the privilige of building accessable web
+            missions!) and have the privilige of building accessible web
             products for{" "}
             <a
               href='https://info.natacs.aero/'
@@ -56,51 +55,39 @@ const Content = () => {
               NATA CS.
             </a>
           </p>
+          <p>Here are the technoligies I have recently work with: </p>
+          <Skills />
         </About>
       </Row>
       <Row>
-        <About title='Tech Stack'>
-          <ul>
-            <li>{"> Javascript (ES 6+)"}</li>
-            <li>{"> React"}</li>
-            <li>{"> ASP.Net"}</li>
-            <li>{"> Microsoft SQL (2012 & 2019)"}</li>
-            <li>{"> Entity Framework"}</li>
-          </ul>
+        <About title='Project 1'>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut molestie
+          at mi id mollis. Curabitur sit amet turpis vulputate, consequat diam
+          sit amet, tincidunt risus. Duis nisi mi, fermentum quis mauris eget,
+          pharetra cursus purus.Lorem ipsum dolor sit amet, consectetur
+          adipiscing elit. Ut molestie at mi id mollis. Curabitur sit amet
+          turpis vulputate, consequat diam sit amet, tincidunt risus. Duis nisi
+          mi, fermentum quis mauris eget, pharetra cursus purus.
         </About>
-        <About title='Experience'>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
-          consequat in diam sit amet euismod. Fusce non metus turpis. Class
-          aptent taciti sociosqu ad litora torquent per conubia nostra, per
-          inceptos himenaeos. Vestibulum ante ipsum primis in faucibus orci
-          luctus et ultrices posuere cubilia curae; Aliquam erat volutpat. Nulla
-          malesuada suscipit purus ut ultricies. Curabitur hendrerit, neque nec
-          tempus viverra, purus nulla tincidunt tellus, vitae ultrices libero
-          orci id nisi. Sed eu tempus massa. Donec ullamcorper egestas tortor,
-          sed iaculis sapien placerat et. Mauris quis aliquam leo. Integer at
-          tempus libero, in ullamcorper sem. Vivamus lacinia lacus sed sapien
-          vehicula tempor. Donec tellus lorem, finibus a purus vel, lobortis
-          blandit erat. Donec gravida, nulla vel aliquam fermentum, dui eros
-          fringilla eros, sed facilisis nisl dui non purus. Sed velit quam,
-          vehicula ac pulvinar sit amet, aliquet pretium erat.
+        <About title='Project 2'>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut molestie
+          at mi id mollis. Curabitur sit amet turpis vulputate, consequat diam
+          sit amet, tincidunt risus. Duis nisi mi, fermentum quis mauris eget,
+          pharetra cursus purus.Lorem ipsum dolor sit amet, consectetur
+          adipiscing elit. Ut molestie at mi id mollis. Curabitur sit amet
+          turpis vulputate, consequat diam sit amet, tincidunt risus. Duis nisi
+          mi, fermentum quis mauris eget, pharetra cursus purus.
+        </About>
+        <About title='Project 3'>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut molestie
+          at mi id mollis. Curabitur sit amet turpis vulputate, consequat diam
+          sit amet, tincidunt risus. Duis nisi mi, fermentum quis mauris eget,
+          pharetra cursus purus.Lorem ipsum dolor sit amet, consectetur
+          adipiscing elit. Ut molestie at mi id mollis. Curabitur sit amet
+          turpis vulputate, consequat diam sit amet, tincidunt risus. Duis nisi
+          mi, fermentum quis mauris eget, pharetra cursus purus.
         </About>
       </Row>
-      <About title='Projects'>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consequat
-        in diam sit amet euismod. Fusce non metus turpis. Class aptent taciti
-        sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
-        Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
-        cubilia curae; Aliquam erat volutpat. Nulla malesuada suscipit purus ut
-        ultricies. Curabitur hendrerit, neque nec tempus viverra, purus nulla
-        tincidunt tellus, vitae ultrices libero orci id nisi. Sed eu tempus
-        massa. Donec ullamcorper egestas tortor, sed iaculis sapien placerat et.
-        Mauris quis aliquam leo. Integer at tempus libero, in ullamcorper sem.
-        Vivamus lacinia lacus sed sapien vehicula tempor. Donec tellus lorem,
-        finibus a purus vel, lobortis blandit erat. Donec gravida, nulla vel
-        aliquam fermentum, dui eros fringilla eros, sed facilisis nisl dui non
-        purus. Sed velit quam, vehicula ac pulvinar sit amet, aliquet pretium
-        erat.
-      </About>
     </Container>
   )
 }

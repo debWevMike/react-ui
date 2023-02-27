@@ -16,20 +16,11 @@ const Footer = () => {
         </li>
         <li>
           <a
-            href='https://github.com/mdesroches0501'
-            target='_blank'
-            rel='noopener noreferrer'
-          >
-            GitHub
-          </a>
-        </li>
-        <li>
-          <a
             href='https://github.com/debWevMike'
             target='_blank'
             rel='noopener noreferrer'
           >
-            GitHub 2
+            GitHub
           </a>
         </li>
       </ul>

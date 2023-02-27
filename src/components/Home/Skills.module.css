@@ -1,0 +1,23 @@
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.skills {
+  margin: inherit;
+}
+
+.skills span {
+  color: var(--color-primary-800);
+}
+
+.skills ul li {
+  padding: 5px 8px;
+  border-radius: 5px;
+}
+
+@media (max-width: 874px) {
+  .skills ul {
+    display: inline;
+  }
+}
