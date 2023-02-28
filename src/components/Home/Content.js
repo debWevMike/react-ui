@@ -8,6 +8,8 @@ import image from "../../images/Mike.jpg"
 import Skills from "./Skills"
 import Contact from "./Contact"
 import Card from "./Card"
+import Button from "./Button"
+import resume from "../../images/MikesResume.pdf"
 
 const Content = () => {
   return (
@@ -25,6 +27,9 @@ const Content = () => {
             NATA CS.
           </a>
         </p>
+        <Button type='link' href={resume}>
+          Resume
+        </Button>
       </Introduction>
       <Row>
         <Image src={image} alt='Michael DesRoches' />
@@ -75,27 +80,28 @@ const Content = () => {
           </Card>
           <Card
             title='Authentication'
-            stack={["Node.js", "Mongo DB", "REST Api"]}
+            stack={["Node.js", "Mongo DB", "REST"]}
             inProgress
+            href='https://github.com/debWevMike'
           >
-            Authentication API that allows users certain access depending on
-            credentials. My goal is to get some sort of authentication process
-            for the blog portion of my website so that it can be more than just
-            a personal blog.
+            Authentication API that allows users certain accesses, depending on
+            credentials. It uses the same API this website and will eventually
+            be integrated with the blog portion of the site. See my progress
+            with the link above!
           </Card>
           <Card
             title='Blog'
             stack={["Node.js", "Mongo DB", "REST Api"]}
             inProgress
+            href='https://github.com/debWevMike'
           >
-            A personal blog website where the user adds the title of the
-            article, and then the content. Content is then datestamped and
-            stored to a database. User interface is always up do date with the
-            latest blog.
+            A blog website where the user adds the title of the article, and
+            then the content. Content is then datestamped and stored into a
+            database. User interface is always up do date with the latest blog.
+            I try my best to keep it up to date.
           </Card>
         </Row>
       </About>
-      <About title='Places I have worked'></About>
       <Contact />
     </Container>
   )

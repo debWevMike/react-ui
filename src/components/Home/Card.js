@@ -1,5 +1,5 @@
 import React from "react"
-import Button from "./Button"
+import { SelectOutlined } from "@ant-design/icons"
 import styles from "./Card.module.css"
 
 const Card = ({ children, title, stack, href, inProgress }) => {
@@ -12,7 +12,8 @@ const Card = ({ children, title, stack, href, inProgress }) => {
     <div className={styles.card}>
       <h3>
         <a href={href} target='_blank' rel='noopener noreferrer'>
-          {title}
+          {title + " "}
+          <SelectOutlined rotate={90} />
         </a>
       </h3>
       <p>{children}</p>
