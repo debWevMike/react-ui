@@ -13,7 +13,7 @@ const Introduction = ({ children }) => {
       <div className={styles.third}>I build stuff for the Web.</div>
       {children}
       <div className={styles.btn}>
-        <Button type='link' href={resume}>
+        <Button type='link' href={resume} download='MikesResume'>
           Resume
         </Button>
       </div>
