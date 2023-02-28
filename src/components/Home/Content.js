@@ -8,8 +8,6 @@ import image from "../../images/Mike.jpg"
 import Skills from "./Skills"
 import Contact from "./Contact"
 import Card from "./Card"
-import Button from "./Button"
-import resume from "../../images/MikesResume.pdf"
 
 const Content = () => {
   return (
@@ -27,9 +25,6 @@ const Content = () => {
             NATA CS.
           </a>
         </p>
-        <Button type='link' href={resume}>
-          Resume
-        </Button>
       </Introduction>
       <Row>
         <Image src={image} alt='Michael DesRoches' />

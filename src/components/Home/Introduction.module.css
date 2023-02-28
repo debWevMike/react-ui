@@ -24,3 +24,6 @@
   font-weight: 400;
   color: var(--color-primary-300);
 }
+.btn {
+  margin-bottom: 2rem;
+}

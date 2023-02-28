@@ -1,5 +1,11 @@
 import React from "react"
 import styles from "./Footer.module.css"
+import {
+  GithubOutlined,
+  LinkedinOutlined,
+  CodepenOutlined,
+  CodeOutlined,
+} from "@ant-design/icons"
 
 const Footer = () => {
   return (
@@ -11,7 +17,7 @@ const Footer = () => {
             target='_blank'
             rel='noopener noreferrer'
           >
-            LinkedIn
+            <LinkedinOutlined />
           </a>
         </li>
         <li>
@@ -20,10 +26,29 @@ const Footer = () => {
             target='_blank'
             rel='noopener noreferrer'
           >
-            GitHub
+            <GithubOutlined />
+          </a>
+        </li>
+        <li>
+          <a
+            href='https://codepen.io/debWevMike'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <CodepenOutlined />
+          </a>
+        </li>
+        <li>
+          <a
+            href='https://www.codewars.com/users/debWevMike'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <CodeOutlined />
           </a>
         </li>
       </ul>
+      <div className={styles.tm}>Designed and built by Micheal DesRoches</div>
     </footer>
   )
 }

@@ -1,5 +1,7 @@
 import React from "react"
 import styles from "./Introduction.module.css"
+import Button from "./Button"
+import resume from "../../images/MikesResume.pdf"
 
 const Introduction = ({ children }) => {
   return (
@@ -10,6 +12,11 @@ const Introduction = ({ children }) => {
       <div className={styles.second}>Michael DesRoches.</div>
       <div className={styles.third}>I build stuff for the Web.</div>
       {children}
+      <div className={styles.btn}>
+        <Button type='link' href={resume}>
+          Resume
+        </Button>
+      </div>
     </div>
   )
 }

@@ -1,15 +1,16 @@
 .footer {
-  font-size: small;
+  font-size: large;
   max-width: 60rem;
   margin: auto;
   padding: 2rem;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  align-items: baseline;
 }
 
 .list {
   display: flex;
-  gap: 1rem;
+  gap: 3rem;
 }
 
 .list a {
@@ -17,8 +18,18 @@
   color: var(--color-primary-300);
 }
 
-.list a:hover,
-.list a.active {
+.list a:hover {
   color: var(--color-primary-500);
   text-decoration: underline;
+}
+
+.tm {
+  font-size: x-small;
+}
+
+@media (max-width: 465px) {
+  .footer {
+    flex-direction: column;
+    white-space: nowrap;
+  }
 }
