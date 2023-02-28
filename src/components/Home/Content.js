@@ -6,6 +6,8 @@ import Container from "./Container"
 import Row from "./Row"
 import image from "../../images/Mike.jpg"
 import Skills from "./Skills"
+import Contact from "./Contact"
+import Card from "./Card"
 
 const Content = () => {
   return (
@@ -59,35 +61,42 @@ const Content = () => {
           <Skills />
         </About>
       </Row>
-      <Row>
-        <About title='Project 1'>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut molestie
-          at mi id mollis. Curabitur sit amet turpis vulputate, consequat diam
-          sit amet, tincidunt risus. Duis nisi mi, fermentum quis mauris eget,
-          pharetra cursus purus.Lorem ipsum dolor sit amet, consectetur
-          adipiscing elit. Ut molestie at mi id mollis. Curabitur sit amet
-          turpis vulputate, consequat diam sit amet, tincidunt risus. Duis nisi
-          mi, fermentum quis mauris eget, pharetra cursus purus.
-        </About>
-        <About title='Project 2'>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut molestie
-          at mi id mollis. Curabitur sit amet turpis vulputate, consequat diam
-          sit amet, tincidunt risus. Duis nisi mi, fermentum quis mauris eget,
-          pharetra cursus purus.Lorem ipsum dolor sit amet, consectetur
-          adipiscing elit. Ut molestie at mi id mollis. Curabitur sit amet
-          turpis vulputate, consequat diam sit amet, tincidunt risus. Duis nisi
-          mi, fermentum quis mauris eget, pharetra cursus purus.
-        </About>
-        <About title='Project 3'>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut molestie
-          at mi id mollis. Curabitur sit amet turpis vulputate, consequat diam
-          sit amet, tincidunt risus. Duis nisi mi, fermentum quis mauris eget,
-          pharetra cursus purus.Lorem ipsum dolor sit amet, consectetur
-          adipiscing elit. Ut molestie at mi id mollis. Curabitur sit amet
-          turpis vulputate, consequat diam sit amet, tincidunt risus. Duis nisi
-          mi, fermentum quis mauris eget, pharetra cursus purus.
-        </About>
-      </Row>
+      <About title='Some things I am building'>
+        <Row>
+          <Card
+            title='This Website'
+            stack={["React", "Node.js", "HTML/CSS"]}
+            href='https://github.com/debWevMike/react-ui.git'
+          >
+            This website was created with reusable components that I made
+            myself. I created this project to showcase my ability to create a
+            site and host it on an API. Suprisingly, CSS is what gave me the
+            most difficult time.
+          </Card>
+          <Card
+            title='Authentication'
+            stack={["Node.js", "Mongo DB", "REST Api"]}
+            inProgress
+          >
+            Authentication API that allows users certain access depending on
+            credentials. My goal is to get some sort of authentication process
+            for the blog portion of my website so that it can be more than just
+            a personal blog.
+          </Card>
+          <Card
+            title='Blog'
+            stack={["Node.js", "Mongo DB", "REST Api"]}
+            inProgress
+          >
+            A personal blog website where the user adds the title of the
+            article, and then the content. Content is then datestamped and
+            stored to a database. User interface is always up do date with the
+            latest blog.
+          </Card>
+        </Row>
+      </About>
+      <About title='Places I have worked'></About>
+      <Contact />
     </Container>
   )
 }

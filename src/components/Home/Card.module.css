@@ -1,0 +1,41 @@
+.card {
+  flex: 1;
+  margin: 0.4rem;
+  padding: 1rem;
+  border-radius: 5px;
+  background-color: var(--color-gray-900);
+}
+
+.card h3 {
+  line-height: 1;
+  margin-top: 0;
+}
+
+.list {
+  display: flex;
+  gap: 1rem;
+  color: var(--color-primary-600);
+}
+
+.card a {
+  text-decoration: none;
+  color: var(--color-primary-300);
+}
+
+.card a:hover {
+  cursor: pointer;
+  color: var(--color-primary-500);
+}
+
+.in-progress {
+  color: rgba(255, 84, 84, 0.629);
+  display: flex;
+  font-weight: lighter;
+  font-size: small;
+  font-style: italic;
+  justify-content: center;
+}
+
+/* .header div {
+  padding: 0.2rem;
+} */
