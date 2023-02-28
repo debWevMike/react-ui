@@ -65,12 +65,12 @@ const Content = () => {
         <Row>
           <Card
             title='This Website'
-            stack={["React", "Node.js", "HTML/CSS"]}
+            stack={["React", "HTML/CSS"]}
             href='https://github.com/debWevMike/react-ui.git'
           >
             This website was created with reusable components that I made
             myself. I created this project to showcase my ability to create a
-            site and host it on an API. Suprisingly, CSS is what gave me the
+            site and host it on an AWS. Suprisingly, CSS is what gave me the
             most difficult time.
           </Card>
           <Card
