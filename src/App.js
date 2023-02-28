@@ -6,8 +6,8 @@ import ProjectsPage from "./pages/Projects"
 import BlogPage from "./pages/Blog"
 import TutorialsPage from "./pages/Tutorials"
 import { Amplify, Storage } from "aws-amplify"
-import awsmobile from "./aws-exports"
-Amplify.configure(awsmobile)
+import awsconfig from "./aws-exports"
+Amplify.configure(awsconfig)
 
 const router = createBrowserRouter([
   {
