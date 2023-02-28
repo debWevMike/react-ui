@@ -48,7 +48,7 @@ const Footer = () => {
           </a>
         </li>
       </ul>
-      <div className={styles.tm}>Designed and built by Micheal DesRoches</div>
+      <div className={styles.tm}>Designed and built by Michael DesRoches</div>
     </footer>
   )
 }

@@ -80,9 +80,9 @@ const Content = () => {
             href='https://github.com/debWevMike'
           >
             Authentication API that allows users certain accesses, depending on
-            credentials. It uses the same API this website and will eventually
-            be integrated with the blog portion of the site. See my progress
-            with the link above!
+            credentials. It uses the same API this website does and will
+            eventually be integrated with the blog portion of the site. See my
+            progress with the link above!
           </Card>
           <Card
             title='Blog'
@@ -93,7 +93,7 @@ const Content = () => {
             A blog website where the user adds the title of the article, and
             then the content. Content is then datestamped and stored into a
             database. User interface is always up do date with the latest blog.
-            I try my best to keep it up to date.
+            I try my best to blog every day.
           </Card>
         </Row>
       </About>
