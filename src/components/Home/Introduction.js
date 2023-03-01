@@ -2,21 +2,8 @@ import React, { useEffect } from "react"
 import styles from "./Introduction.module.css"
 import Button from "./Button"
 import resume from "../../images/MikesResume.pdf"
-import { Storage } from "@aws-amplify/storage"
 
 const Introduction = ({ children }) => {
-  const getPdf = async () => {
-    await Storage.get("MikesResume.pdf", {
-      level: "public",
-    })
-  }
-
-  const pdf = getPdf()
-
-  useEffect(() => {
-    console.log("pdf: ", pdf)
-  }, [pdf])
-
   return (
     <div className={styles.intro}>
       <div className={styles.first}>
