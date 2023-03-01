@@ -16,7 +16,8 @@
         "reactui": {}
       },
       "storage": {
-        "s3reactuistorageimages": {}
+        "s3reactuistorageimages": {},
+        "s3508a7670": {}
       }
     }
   }
