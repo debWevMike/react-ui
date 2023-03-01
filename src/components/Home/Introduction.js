@@ -1,4 +1,4 @@
-import React, { useEffect } from "react"
+import React from "react"
 import styles from "./Introduction.module.css"
 import Button from "./Button"
 import resume from "../../images/MikesResume.pdf"
