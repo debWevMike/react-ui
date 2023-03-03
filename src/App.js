@@ -1,6 +1,6 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom"
 import RootLayout from "./pages/Root"
-import HomePage from "./pages/Home"
+import HomePage, { loader as resumeLoader } from "./pages/Home"
 import ErrorPage from "./pages/Error"
 import ProjectsPage from "./pages/Projects"
 import BlogPage from "./pages/Blog"
@@ -15,6 +15,8 @@ const router = createBrowserRouter([
       {
         index: true,
         element: <HomePage />,
+        id: "resume",
+        loader: resumeLoader,
       },
       {
         path: "projects",

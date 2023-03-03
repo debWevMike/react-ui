@@ -1,0 +1,23 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-reactui-dev-211827-authRole",
+      "UnauthRoleArn": "arn:aws:iam::414258725857:role/amplify-reactui-dev-211827-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::414258725857:role/amplify-reactui-dev-211827-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-reactui-dev-211827-deployment",
+      "UnauthRoleName": "amplify-reactui-dev-211827-unauthRole",
+      "StackName": "amplify-reactui-dev-211827",
+      "StackId": "arn:aws:cloudformation:us-west-2:414258725857:stack/amplify-reactui-dev-211827/cc626180-b982-11ed-a266-0679ee6bda11",
+      "AmplifyAppId": "d3w2eeo2oqz2g6"
+    },
+    "categories": {
+      "api": {
+        "reactui": {}
+      },
+      "hosting": {
+        "S3AndCloudFront": {}
+      }
+    }
+  }
+}

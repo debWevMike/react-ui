@@ -6,3 +6,11 @@ const HomePage = () => {
 }
 
 export default HomePage
+
+export const loader = async () => {
+  console.log("loader hit")
+  return null
+  // return await Storage.get("MikesResume.pdf", {
+  //   level: "public",
+  // })
+}

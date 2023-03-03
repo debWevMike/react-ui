@@ -1,9 +1,14 @@
 import React from "react"
 import styles from "./Introduction.module.css"
 import Button from "./Button"
-import resume from "../../images/MikesResume.pdf"
+import tempResume from "../../images/MikesResume.pdf"
+import { useRouteLoaderData } from "react-router-dom"
 
 const Introduction = ({ children }) => {
+  const resume = useRouteLoaderData("resume")
+
+  console.log("Intro resume: ", resume)
+
   return (
     <div className={styles.intro}>
       <div className={styles.first}>
@@ -13,7 +18,7 @@ const Introduction = ({ children }) => {
       <div className={styles.third}>I build stuff for the Web.</div>
       {children}
       <div className={styles.btn}>
-        <Button type='link' href={resume} download='MikesResume.pdf'>
+        <Button type='link' href={tempResume} download='MikesResume.pdf'>
           Resume
         </Button>
       </div>
